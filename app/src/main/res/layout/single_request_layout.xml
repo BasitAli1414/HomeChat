@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginStart="@dimen/_7sdp"
+    android:layout_marginEnd="@dimen/_5sdp"
+    android:layout_height="wrap_content">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/request_profile_layout"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:src="@drawable/profile2" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginStart="@dimen/_85sdp">
+
+        <TextView
+            android:id="@+id/request_name_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Display Name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16ssp" />
+
+        <TextView
+            android:id="@+id/request_status_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User default Status"
+            android:layout_below="@+id/request_name_layout"
+            android:textSize="@dimen/_12ssp" />
+
+        <Button
+            android:id="@+id/request_confrimBtn_layout"
+            android:layout_width="@dimen/_95sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_10ssp"
+            android:backgroundTint="#F80048FF"
+            android:layout_below="@id/request_status_layout"
+            android:text="Confrim"
+           />
+
+        <Button
+            android:id="@+id/request_deleteBtn_layout"
+            android:layout_width="@dimen/_95sdp"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_10ssp"
+            android:backgroundTint="#C7D70707"
+            android:layout_below="@id/request_status_layout"
+            android:layout_marginStart="@dimen/_102sdp"
+            android:text="Delete"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

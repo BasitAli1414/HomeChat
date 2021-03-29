@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "890086063663",
+    "firebase_url": "https://homechat-d539c.firebaseio.com",
+    "project_id": "homechat-d539c",
+    "storage_bucket": "homechat-d539c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890086063663:android:d9395d18611c66edf650da",
+        "android_client_info": {
+          "package_name": "com.bashoo.homechat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890086063663-9bvmf6k0s9kvftp9uavpbtn2vl922ipd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3_UZYd8IuLyUBs2p7dcdn3tkzOETN6Ck"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890086063663-9bvmf6k0s9kvftp9uavpbtn2vl922ipd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

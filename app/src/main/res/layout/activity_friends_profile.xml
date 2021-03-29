@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FriendsProfile"
+    android:background="#F5000000">
+
+
+    <ImageView
+        android:id="@+id/imageView_FPActivity"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:gravity="center"
+        android:scaleType="fitXY"
+        android:src="@drawable/profile2"></ImageView>
+
+    <TextView
+        android:id="@+id/nameView_FPActivity"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Basot Ali"
+        android:layout_below="@id/imageView_FPActivity"
+        android:paddingTop="10dp"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textAlignment="center"></TextView>
+
+    <TextView
+        android:id="@+id/statusView_FPActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Basot Ali"
+        android:layout_below="@id/nameView_FPActivity"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"></TextView>
+
+    <TextView
+        android:id="@+id/showfriendsView_FPActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="255 Friends | 3 Mutual Friends"
+        android:layout_below="@id/statusView_FPActivity"
+        android:layout_marginTop="89dp"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textAlignment="center"></TextView>
+
+
+    <Button
+        android:id="@+id/sendReqButton_FPActivity"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Send Friend Request"
+        android:textAlignment="center"
+        android:background="@color/purpal"
+        android:layout_below="@id/showfriendsView_FPActivity"
+        android:layout_centerInParent="true"
+        android:textSize="15sp"></Button>
+
+    <Button
+        android:id="@+id/declineReqButton_FPActivity"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Decline Friend Request"
+        android:textAlignment="center"
+        android:background="@color/red"
+        android:visibility="invisible"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/sendReqButton_FPActivity"
+        android:layout_centerInParent="true"
+        android:textSize="15sp"></Button>
+
+
+
+
+
+</RelativeLayout>

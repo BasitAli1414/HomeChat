@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Home Chat</string>
+    <string name="need_a_new_account">Need a new account.</string>
+    <string name="create_account">Create Account</string>
+    <string name="password">Password</string>
+    <string name="gmail">Gmail</string>
+    <string name="name">Name</string>
+    <string name="login_to_your_account">Login to your Account</string>
+    <string name="login">Login</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hi_there_i_m_using_home_chat_app">Hi there, I\'m using Home Chat App</string>
+</resources>
